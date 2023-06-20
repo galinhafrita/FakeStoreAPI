@@ -1,0 +1,156 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-color: #1a1623;
+    padding-top: 1%;
+    padding-bottom: 2%;
+
+
+}
+#logo{
+    display: block;
+    float: left;
+    margin-left: 1%;
+}
+input{
+    border-radius: 4px;
+    border: none;
+    border: 2px solid gray;
+    float: left;
+    font-size: 140%;
+    margin-left: 40%;
+}
+#logar{
+    color: white;
+    display: block;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+#cart{
+    display: block;
+    float: right;
+    margin-right: 1%;
+    text-decoration: none;
+
+}
+#favorito{
+    display: block;
+    float: right;
+    text-decoration: none;
+}
+
+header li{
+    list-style: none;
+}
+header li a{
+    text-decoration: none;
+    color: white;
+}
+ 
+/* - Termino do header - */
+
+ul select{
+    width: 15%;
+    height: 50px;
+    margin-left: 40%;
+    border: 2px solid #9ed99e;
+    border-radius: 5px;
+
+}
+/* - Inicio do corpo - */
+body{
+    background-color: #9ed99e;
+}
+h1{
+    margin: 0;
+    display: block;
+    background-color: #1a1623;
+    margin-top: 1%;
+    margin-left: 3%;
+    margin-right: 3%;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+h3{
+    margin: 0;
+    display: block;
+    background-color: #1a1623;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 1%;
+    text-align: center;
+    color: white;
+}
+#body{
+    background-color: #f0dda6;
+    width: 94%;
+    margin-left: 3%;
+    margin-right: 3%;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #1a1623;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-bottom: 2%;
+    margin-bottom: 100px;
+    
+}
+.carde img{
+    width: 70%;
+    margin-left: 16%;
+    border-radius: 10px;
+    border: 10px solid #1a1623;
+
+}
+.carde{
+    display: block;
+    border: 10px solid #1a1623;
+    width: 30%;
+    margin-top: 1%;
+    margin-left: 2.5%;
+    background-color: #f0dda6;
+    padding-top: 1%;
+    padding-bottom: 1%;
+
+}
+.carde h2{
+    width: 100%;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}   
+.carde p{
+    text-align: center;
+}
+.carde a{
+    font-size: 150%;
+    margin-left: 42%;
+    text-decoration: none;
+    
+}
+
+@media (max-width: 768px){
+    .carde{
+        width: 80%;
+        margin-left: 10%;
+    }
+    ul select{
+        width: 50%;
+        height: 50px;
+        margin-left: 6%;
+        border: 2px solid #9ed99e;
+        border-radius: 5px;
+    
+    }
+    #logo{
+        display: none;
+    }
+}

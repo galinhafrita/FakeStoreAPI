@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background-color: #1a1623;
+    padding-top: 1%;
+    padding-bottom: 4%;
+
+
+}
+#logo{
+    display: block;
+    float: left;
+    margin-left: 1%;
+}
+input{
+    border-radius: 4px;
+    border: none;
+    border: 2px solid gray;
+    float: left;
+    font-size: 140%;
+    margin-left: 40%;
+}
+#logar{
+    color: white;
+    display: block;
+    float: right;
+    margin-left: 1%;
+    margin-right: 1%;
+
+}
+#cart{
+    display: block;
+    float: right;
+    margin-right: 1%;
+    text-decoration: none;
+
+}
+#favorito{
+    display: block;
+    float: right;
+    text-decoration: none;
+}
+
+header li{
+    list-style: none;
+}
+header li a{
+    text-decoration: none;
+    color: white;
+}
+
+.carde{
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 7%;
+    margin-top: 2%;
+    background-color: #f0dda6;
+    border-radius: 10px;
+    border: 10px solid #1a1623;
+
+
+}
+.carde img{
+    background-color: white;
+    width: 50%;
+    margin-left: 20%;
+    margin-bottom: 5%;
+    padding: 5%;
+    border: 10px solid #1a1623;
+    border-radius: 10px;
+}
+body{
+    background-color: #9ed99e;
+}
+.carde h2{
+    width: 100%;
+    font-size: 26px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+}   
+.carde p{
+    text-align: center;
+}
+.carde a{
+    font-size: 150%;
+    margin-left: 42%;
+    text-decoration: none;
+    
+}
+@media (max-width: 768px){
+    .carde{
+        width: 60%;
+        margin-left: 10%;
+    }
+    ul select{
+        width: 50%;
+        height: 50px;
+        margin-left: 6%;
+        border: 2px solid #9ed99e;
+        border-radius: 5px;
+    
+    }
+    #logo{
+        display: none;
+    }
+    .carde img{
+        background-color: white;
+        width: 50%;
+        margin-left: 1%;
+        margin-bottom: 4%;
+        padding: 20%;
+        border: 10px solid #1a1623;
+        border-radius: 10px;
+    }
+    .carde a{
+        font-size: 150%;
+    }
+    header{
+        background-color: #1a1623;
+        padding-top: 1%;
+        padding-bottom: 10%;
+    }
+}
